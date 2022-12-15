@@ -1,7 +1,9 @@
-var alphabet=["A","B","C","D","E"];
-for(i=1;i<=alphabet.length;i++){
-    for(j=0;j<i;j++){
-        document.write(alphabet[j]+" ")
+length=parseInt(prompt("length"))
+for(i=1;i<=length;i++){
+    a=65
+    for(j=1;j<=i;j++){
+        document.write(String.fromCharCode(a)+" ")
+        a++
     }
     document.write("<br>")
 }
